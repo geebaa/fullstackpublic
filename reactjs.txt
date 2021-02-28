@@ -1,0 +1,18 @@
+Though react is a fontend technology , it will be served from the backend.
+We therefore use nodejs as a platform to develop react apps. Which then gets
+served using a lightweight webserver.
+
+To generate the scaffolding of a react app , a node module called "create-react-app" is used
+Install create-react-app globally on the development environment using the below command.
+"npm install -g create-react-app "
+
+Now to create the first react app , use the below command.
+
+"create-react-app <app-name>" for example "create-react-app hello-world"
+This creates a new directory hello-world and then creates the scaffolding for the react app.
+
+It takes a while using npm to get the scaffolding generated.
+Post that , change directory to "hello-world"
+run "npm start"
+This starts the lightweight web development server wds on http port 3000 and serves the first app.
+and also open the default browser to the location "http:\\localhost:3000"
