@@ -1,3 +1,7 @@
+Though Angular just like react is a fontend technology , it will be served from the backend.
+We therefore use nodejs as a platform to develop angular apps. Which then gets
+served using a lightweight webserver.
+
 Start your first angular application with the installation of 
 
     npm install -g @angular/cli
