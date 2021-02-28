@@ -26,3 +26,30 @@ NodeJs (node)
 -------------
 Post installing Node here are some handy commands of Node
                  "node --version"
+                 
+Node Package Manager (npm)
+-------------------------
+Bundled with node is the default Node Package Manager (npm) .
+Primary purpose of npm is to install node packages to be used for javascript application development.
+
+Some important npm commands
+---------------------------
+npm --version 
+
+Note that npm versions and node versions have no corelation . 
+
+Some packages for frontend development
+--------------------------------------
+Angular development
+        npm install -g @angular/cli
+        
+React development 
+        npm install -g create-react-app
+
+Some packages for nodejs backend development
+--------------------------------------------
+npm install express         <= http routing
+npm install joi             <= validation framework
+npm install mongoose        <= to interact with mongodb (persistance layer)
+
+
