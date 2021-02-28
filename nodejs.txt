@@ -1,0 +1,28 @@
+One of the very important part of fullstack development is Node.js. 
+This is an environment to run javascript outside of browser. 
+Typically suited for backend development using javascript.
+This sports the chrome v8 Javascript engine . These notes mainly pertain to Sullstack development
+on a windows development environment.
+As a developer Managing various releases of Node.js is a very important activity during development
+One way to do it is to download the instaler either LTS or Latest from the www.nojs.org website.
+Another easy way is to install a Node Version Manager (a.k.a nvm) to manage the versions and update using the cli.
+I personally prefer a cli tool to get this job done. This tool for windows can be installed from https://github.com/coreybutler/nvm-windows/
+
+Node Version Manager (nvm)
+--------------------------
+Post installation here are few handy commands of Node Version Manager (nvm)
+
+                 "nvm --version" 
+                 "nvm list"
+                 "nvm list available"
+                 "nvm install latest"
+                 "nvm install 14.16.0" for example the LTS at the time of writing is 14.16.0
+                 "nvm uninstall 14.16.0" to uninstall the version 14.16.0
+A very important step to make node usable after installation is
+                 "nvm use 14.16.0" since this was the version that was installed.
+you can also install multiple versions and switch between various versions by using the "npm use <version>" 
+
+NodeJs (node)
+-------------
+Post installing Node here are some handy commands of Node
+                 "node --version"
