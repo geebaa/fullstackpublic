@@ -1,0 +1,13 @@
+Start your first angular application with the installation of 
+
+    npm install -g @angular/cli
+To create the first project use the below command
+    ng new myangularapp
+    
+This would take a while to generate the scaffolding . 
+Once done , change directory to myangularapp and run
+    npm start
+This would start a webserver on default port 4200.
+
+You can use any browser and interact with the app at "http://localhost:4200"
+
